@@ -1,0 +1,834 @@
+@font-face{
+	src : url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+	font-family: 'Open Sans', ;
+}
+@font-face{
+	src :  url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap&subset=latin-ext,vietnamese');
+	font-family: 'Patrick Hand', cursive;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Open Sans ;
+}
+.container-fluid{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+/***************end header-top**************/
+.inline{
+	display: inline-block;
+}
+.col-md-8{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.top-header{
+	background-color: #ff789e;
+	color: #ffff;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 0;
+}
+.top-header-left{
+	padding-left: 2rem !important;
+}
+.top-header .top-header-right .in-top-header-right a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+/***************end header-top**************/
+
+/***************end menu**************/
+
+
+.menu {
+  position: relative;
+  min-height: 550px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.menu video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.container-fluid {
+  position: relative;
+  z-index: 2;
+  padding: 0px 0px !important;
+}
+.navbar-light{
+	opacity: 90%;
+}
+.navbar-brand img{
+	padding-left: 2rem;
+}
+.menunavbar{
+	padding: 30px 5%; 
+	font-family: Open Sans ;
+}
+.nav-link {	
+	color: #ffffffff !important;
+	font-size: 18px;
+}
+.nav-link:hover{
+	color: #ff789e  !important;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-menu{
+	position: absolute;
+	display: none;
+	z-index: 1;
+	top: 1.8rem !important;
+	background-color: #ff789e !important;
+	margin-left: 1.8rem !important;
+	border-radius: 0 !important;
+}
+.dropdown-item{
+	color: white !important ;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+.btn-hoivien{
+	color: #fff;
+	width: 88px;
+	height: 40px;
+	background-color: #ff789e;
+}
+.btn-hoivien:hover{
+	background-color: #fc5584;
+}
+nav.navbar .menunavbar i.fa-shopping-cart {
+	color: #fff;
+	margin-left: 1rem;
+	padding: 0.7rem;
+	border: 1px #ff789e solid;
+}
+nav.navbar .menunavbar i.fa-shopping-cart:hover {
+	color:#fc5584 ;
+}
+/***************end menu**************/
+.txt-top{
+	padding: 7rem 0 2rem 0;
+	text-align: center;
+	line-height: 5rem;
+}
+.txt-top h2{
+	display: inline-block;
+	font-family: Open Sans ;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	font-family: 'Patrick Hand', cursive;
+	letter-spacing: 1px;
+	padding-right: 0.5rem;
+}
+.txt-top h1.adong{
+	display: inline-block;
+	color: #ff789e;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Patrick Hand', cursive;
+}	
+.txt-main h5{
+	font-family: Open Sans ;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.btn-bottom{
+	text-align: center;
+	margin-top: 1rem;
+}
+.btn-onclicktome{
+	color: #fff;
+	display: inline-block;
+	padding: 12px 30px;	
+	background-color: #ff789e;
+}
+.btn-onclicktome:hover{
+background-color: #fc5584;
+}
+/**********************Main-text*****************************/
+.main{
+	margin-bottom: 3rem !important;
+}
+.main-stree{
+	margin-top: 3rem;
+}
+.main-text{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	text-indent: 2rem !important;
+}
+.main-text-chaomung{
+	display: inline-block;
+	color: #ff789e;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Patrick Hand', cursive;
+}
+.main-text-suplo{
+ 	display: block;
+	color: #000000;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Patrick Hand', cursive;
+	padding-bottom: 1rem;
+}
+.main-supertext{
+	text-align: justify !important;
+	word-spacing: 2px;
+}
+.btn-bottom button{
+	color: #fff;
+	width: 140px;
+	height: 40px;
+	background-color: #ff789e;
+}
+.btn-bottom button:hover{
+	color: #fff;
+	width: 140px;
+	height: 40px;
+	background-color: #ff789e;
+}
+.imgmain{
+   width: 96%;
+   margin: 0 auto;
+   overflow: hidden;
+   margin-top: 2rem;
+}
+.imgmain:hover img{
+	transform: scale(1.2);
+	transition: 2s;
+}
+
+/**********************end Main-text*****************************/
+
+/**********************Main dang-ki*****************************/
+
+.main-dangki{
+	background-image: url("../image/image_home_advertisement.webp");
+	background-attachment: fixed;
+	height: 300px;
+}
+.main-dangki-top{
+	margin-top: 6rem !important;
+}
+.main-dangki-top h2 {
+	text-align: center;
+	color: #ff789e;
+}
+.main-dangki-top a{
+	text-align: center;
+	color: white;
+}
+.main-dangki-top .{
+	font-weight: bold;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 30px;
+	line-height: 1px;
+	margin-bottom: 3rem;
+
+}
+.main-dangki .main-dangki-top .date-time-now{
+	font-weight: bold;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 24px;
+	color: white;
+
+}
+.btn-dangki{
+	margin: 20px 0;
+	display: inline-block;
+	padding: 10px 26px;
+	background-color: #ff789e;
+	color: white;
+}
+.btn-dangki:hover{
+	text-decoration: none;
+	background-color: #fc5584;
+	color: white;
+}
+.main-dangki-bottom{
+	margin-top: 3rem;
+	text-align: center;
+}
+.main-dangki-bottom .txt-khampha{
+	text-align: center;
+	color: #ff789e;
+	font-weight: bold;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 30px;
+	line-height: 1px;
+}
+.main-dangki-bottom .txt-dichvu{
+	color: black;
+	font-weight: bold;
+	font-family: Opens San;
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 1.5rem;
+}
+.main-dangki-bottom p{
+	display: inline-block;
+	width: 80%;
+	margin-top: 0 auto;
+}
+
+
+/**********************end Main-dang-ki*****************************/
+
+/**********************Main Dich-vu*****************************/
+
+
+.dichvu{
+	/*margin-top: 10rem;*/
+	margin-bottom: 2rem;
+}
+.maindichvu{
+	text-align: center;
+}
+.maindichvu-link{
+	text-align: center;
+	color: #ff789e;
+	box-sizing: border-box;
+}
+.maindichvu-link button{
+	font-size: 20px;
+	padding: 8px 16px
+	color: white;
+	background-color: #ffffff;
+	margin-right: 1rem;
+}
+.maindichvu-link button:hover{
+	font-size: 20px;
+	color: #fc5584;
+	border-bottom: 1px solid #fc5584;
+}
+.maindichvu-content{
+	margin-top: 2rem;
+
+}
+.box-img{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 2rem;
+}
+.maindichvu-content-img{
+	display: inline-block;
+	margin: 0 2%;
+}
+.maindichvu-content-img:hover{
+	transform: scale(1.2);
+	transition: 1.3s;
+}
+.box-content{
+	text-align: center;
+	color: white;
+}
+.box-content h2{
+	font-size: 16px;
+	color: #ff789e;
+	font-weight: bold;
+}
+.box-content p{
+	font-size: 16px;
+	color: black;
+	text-align: left;
+	line-height: 20px;
+	/*letter-spacing: 0.8px;*/
+	
+}
+.box-content a{
+	background-color: #ff789e;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: white !important;
+}
+.box-content a:hover{
+	background-color: #fc5584;
+	text-decoration: none;
+}
+/**********************Main Dich-vu*****************************/
+
+/**********************Main People*****************************/
+
+.main-people{
+	background-image: url('../image/image_home_professional.png');	
+	text-align: center;: !important;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	margin-top: 3rem !important;	
+}
+.main-people-text{
+	text-align: center;
+	margin-top: 5rem;
+	color: white;
+
+}
+.main-people-text h2{
+	font-size: 50px;
+	color: #ff789e;
+	display: 
+
+}
+.main-people-text h3{
+	font-size: 30px;
+	display: inline-block;
+	padding: 5px 0;
+	font-color:white !important;
+
+}
+.main-people-text p{
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 0.3px;
+	line-height: 20px;
+	padding: 0 15%;
+}
+.main-people-img{
+	display: flex;
+	margin-bottom: 3rem;
+}
+.main-people-img img{
+	margin: auto;
+	overflow: hidden;
+	border-radius: 50%;
+	border-color: 2px red solid;
+}
+
+/**********************end mainpeople*****************************/
+
+/**********************Main San-pham*****************************/
+.main-sanpham{
+	margin-bottom:5rem  !important;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.row-main-sanpham{
+	
+}
+.content-main-sanpham{
+	text-align: center;
+	margin: 3rem auto;
+}
+.content-main-sanpham .thuonghieu{
+	font-size: 30px;
+    color: #ff789e;
+    margin: 0;
+    padding: 0;
+    margin-top: -15px;
+}
+.content-main-sanpham .noibat{
+	font-size: 24px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.content-main-sanpham .noidung{
+	display: inline-block;
+	margin: 0 0%;
+	text-align: center;
+	margin-top: 1rem;
+	font-size: 16px;
+}
+
+
+/**********************end san-pham*****************************/
+
+/**********************end san-pham*****************************/
+.card{
+	overflow: hidden;
+	border: none !important;
+	max-width: 90% !important;;
+	margin: 0 auto;
+}
+.card:hover {
+	border: 1px solid rgba(0, 0, 0, 0.125)!important;
+}
+.card:hover .card-img-top{
+	transform: scale(1.2);
+	transition: 1s;
+}
+.card:hover .main-title{
+	color: #ff789e;
+}
+.card:hover .btn-mua{
+	margin-bottom: 0rem;
+	display: block;
+	transition:3s;
+}
+.main-the .main-price{
+	text-align: center !important;
+	color: #ff789e;
+	font-weight: bold;
+	font-size: 20px;
+}
+.main-the .main-price del{
+	font-size: 16px;
+	color: black;
+	font-weight: normal;
+}
+.main-title{
+	color: black;
+	margin-top: 2rem;
+}
+.btn-mua{
+	margin-bottom: -4rem;
+	display: none;
+	text-align: center;
+}
+.btn-mua button{
+	margin-bottom: 1rem;
+}
+.card .card-img-top{
+	max-width: 50% !important;
+	margin: 0 25% ;
+}
+
+/**********************end san-pham*****************************/
+
+/**********************dang ki-thanh-vien*****************************/
+.dangki{
+
+}
+.dangkithahvien{
+	/*margin: 0px 2px !important;	*/
+}
+.dangkithanhvien-title{
+	text-align: center;
+	margin: 3rem auto;
+}
+.dangkithanhvien-title .title-chungtoi{
+	font-size: 30px;
+    color: #ff789e;
+    margin: 0;
+    padding: 0;
+    margin-top: -15px;
+}
+.dangkithanhvien-title .title-dangkithanh{
+	font-size: 24px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.dangkithanhvien-title .title-neu{
+	display: inline-block;
+	margin: 0 20%;
+	text-align: justify;
+	margin-top: 2rem;
+}
+
+.box-adduser{
+	box-shadow: 1px 1px 6px 1px #888888;
+	margin: 1rem 0;
+	/*margin: 0 2px !important;*/
+}
+.box-adduser-top{
+	position: relative;
+}
+.box-adduser-img{
+width: 100%;
+margin:0 auto;
+}
+.box-adduser-img img{
+	margin-left: 2% !important;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.box-adduser-content-in-img{
+	margin-left: 2% !important;
+	position: absolute;
+	z-index: 5;
+	top:20%;
+	left: 36%;
+}
+.box-adduser-content-in-img h3{
+	color: white;
+}
+.box-adduser-content-in-img h2{
+	color: #ff789e !important;
+	font-weight: bold;
+}
+.list-box-adduser-ul{
+	margin-left: 4% !important;
+	list-style: none;
+	margin: 1rem auto;
+}
+.list-box-adduser-li{
+	display: inline-block;
+	margin: 0.3rem auto;
+	border-bottom: 1px solid #0000 ;
+}
+.list-box-adduser-li i{
+	display: inline-block;
+	padding: 5px 0 ;
+}
+.box-add-btn{
+	margin-top: 2rem !important;
+	margin-bottom: 2rem !important;
+	text-align: center;
+}
+/**********************end ki-thanh-vien*****************************/
+
+/********************** min 768 px *****************************/
+/********************** end min 768 px *****************************/
+/********************** max 768 px *****************************/
+@media only screen and (max-width: 768px){
+	
+.imgmain{
+	padding-left: 5%;
+}
+.date-time-now{
+	padding-left: 4.5% !important;
+}
+.date-time{
+	display: block;
+}
+.btn-dangki{
+	margin-left: 38% !important;
+}
+.box-content h2{
+	padding-top: 1.3rem;
+}
+.box-content{
+	margin-left: 2% ;
+}
+.iconcolor {
+	color: white !important;
+	font-size: 14px !important;
+	padding: 0 5px;
+}
+.iconcolor a {
+	text-decoration: none !important;
+	color: white !important;
+}
+.main-people-body{
+	width: 96%;
+	margin: 0 auto;
+
+}
+.main-people-box{
+	overflow: hidden;
+	display: flex;
+}
+.main-people-box-img{
+	align-items: center;
+}
+.main-people-box .main-people-box-img img{
+	border-radius: 50%;
+	margin-left:1rem;
+	float: left;
+	margin-top: 1rem;
+}
+.content-box-people{
+	width: 50%;float: left;
+}
+.main-people-box-text{
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+	line-height: 20px;
+	text-align: justify;
+	padding-left: 1rem;
+	padding-top: 1rem;
+}
+
+.main-people-box-text p{
+	display: inline-block;
+	
+}
+/**********************end Nhan xet*****************************/
+
+/**********************Share*****************************/
+.Share{
+	margin: 1.6rem 0 !important;
+}
+.Share-body{
+	text-align: center;
+}
+.Share-body-left{
+}
+.Share-body-left-h2{
+	color: #ff789e;
+}
+.Share-body-left-h3{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	padding-bottom: 2rem;
+}
+.img-sharebody{
+   width: 96%;
+   margin: 0 auto;
+   overflow: hidden;
+   margin-top: 0.2rem;
+   margin-bottom: 1rem;
+}
+.img-sharebody:hover img{
+	transform: scale(1.2);
+	transition: 2s;
+}
+.Share-body-left-h5{
+	color: #ff789e;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;	
+}
+.Share-body-left-h3{
+	color: black;
+}
+.Share-body-left-p{
+	padding: 0 3rem;
+}
+/**********************end Share*****************************/
+
+/**********************footer*****************************/
+.in-footer{
+	background-color: #ff789e !important;
+	margin: 0 auto;
+	padding: 1rem 0;
+	text-align: center;
+}
+.in-footer div{
+	margin: 1rem 0;
+}
+/**********************end footer*****************************/
+
+.footer-bottom {
+    padding: 50px 0;
+    position: relative;
+    background: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.in-footer-bottom{
+	color: white;
+	text-align:justify;
+	padding-top: 3rem;
+}
+.in-footer-bottom a{
+	color: white;
+}
+.footer-bottom-contact{
+	box-sizing: border-box;
+	text-align: justify;
+	padding-left: 2% !important;
+	margin-bottom: 1.3rem;
+	color: white;
+}
+.footer-bottom-contact {
+	padding: 6px 0;
+}
+.footer_list li{
+	list-style: none;
+}
+.footer_list li:hover{
+	text-decoration: none;
+	color: #fff !important;
+}
+.footer-bottom-contact div a:hover{
+	color: #fff;
+}
+.footer-bottom-contact div ul {
+	list-style: none !important;
+}
+.footer-bottom-contact div ul li:hover{
+	text-decoration: none;
+	color: #ff789e;
+}
+.footer__container__input{
+	display: flex;
+}
+.footer__container__input input{
+	height: 40px !important;
+    width: 100%;
+    background: #fff;
+    color: #222222;
+    border: 1px solid #fff;
+    outline: 0 !important;
+    box-shadow: none;
+    border-radius: 0;
+}
+.footer__container__input span{
+	position: relative;
+    width: 1%;
+    padding: 0;	
+    background-color: #ff789e;
+}
+.footer__container__input span button{
+	height: 40px;
+	position: absolute;
+	margin-left: -5rem;
+    line-height: 40px;
+    padding: 0 30px;
+    display: inline-block;
+}
+
+/**********************footer-bottom*****************************/
+
+
+/**********************end footer-bottom*****************************/
+
+/********************** min 768 px *****************************/
+/********************** end min 768 px *****************************/
+/********************** max 768 px *****************************/
+@media only screen and (max-width: 768px){
+	
+.imgmain{
+	padding-left: 5%;
+}
+.date-time-now{
+	padding-left: 4.5% !important;
+}
+.date-time{
+	display: block;
+}
+.btn-dangki{
+	margin-left: 38% !important;
+}
+.box-content h2{
+	padding-top: 1.3rem;
+}
+.box-content{
+	margin-left: 2% ;
+}
+.main-people-box-text{
+	top: 2%;
+	margin-left: 10%;
+}
+.footer-bottom-contact{
+	box-sizing: border-box;
+	text-align: justify;
+	padding: 0 5% 	!important;
+	margin-bottom: 1.3rem;
+}
